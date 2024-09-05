@@ -25,7 +25,7 @@ import org.openqa.selenium.interactions.Actions;
  * @version 1.0.0
  */
 
-public class TestSetFimi {
+public class TestSetDji {
 
     /**
      * Главный метод является точкой входа в программу на Java.
@@ -50,12 +50,12 @@ public class TestSetFimi {
         WebElement sendKey249 = driver.findElement(By.xpath("//*[@id=\"catalog-menu-obbx_92906147_g8taYv\"]/ul/li[1]/div/ul/li[1]/div/ul/li[3]/a/span[2]"));
         sendKey249.click();
 
-        // 3. Находим кнопку "Квадрокоптер FIMI Mini 3 Combo" и кликаем на нее
-        WebElement sendKeyFimi = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_105796_362ce596257894d11ab5c1d73d13c755\"]/div/div[3]/a"));
+        // 3. Находим кнопку "Квадрокоптер DJI Mini 4 Pro Fly More Combo Plus (DJI RC 2) (пульт с экраном)" и кликаем на нее
+        WebElement sendKeyFimi = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_103398_c80764dfaf26ca80162484593ec7c29b\"]/div/div[3]/a"));
         sendKeyFimi.click();
 
         // 4. Находим кнопку "в комплекте", кликаем на нее и изучаем комплектацию товара
-        WebElement sendKeySet = driver.findElement(By.xpath("//*[@id=\"bx_117848907_105796_tabs\"]/div/div/ul/div[1]/div/div[2]/li"));
+        WebElement sendKeySet = driver.findElement(By.xpath("//*[@id=\"bx_117848907_103398_tabs\"]/div/div/ul/div[1]/div/div[4]/li"));
         sendKeySet.click();
 
         // 5. Находим кнопку "Согласен" и нажимаем ее
