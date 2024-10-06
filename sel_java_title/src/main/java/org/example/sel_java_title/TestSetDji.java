@@ -50,12 +50,12 @@ public class TestSetDji {
         WebElement sendKey249 = driver.findElement(By.xpath("//*[@id=\"catalog-menu-obbx_92906147_g8taYv\"]/ul/li[1]/div/ul/li[1]/div/ul/li[3]/a/span[2]"));
         sendKey249.click();
 
-        // 3. Находим кнопку "Квадрокоптер DJI Mini 4 Pro Fly More Combo Plus (DJI RC 2) (пульт с экраном)" и кликаем на нее
-        WebElement sendKeyFimi = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_103398_c80764dfaf26ca80162484593ec7c29b\"]/div/div[3]/a"));
+        // 3. Находим кнопку "Квадрокоптер DJI Neo Fly More Combo (3 батарейки с пультом)" и кликаем на нее
+        WebElement sendKeyFimi = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_106976_7e1b8e3524755c391129a9d7e6f2d206\"]/div/div[3]/a"));
         sendKeyFimi.click();
 
         // 4. Находим кнопку "в комплекте", кликаем на нее и изучаем комплектацию товара
-        WebElement sendKeySet = driver.findElement(By.xpath("//*[@id=\"bx_117848907_103398_tabs\"]/div/div/ul/div[1]/div/div[4]/li"));
+        WebElement sendKeySet = driver.findElement(By.xpath("//*[@id=\"bx_117848907_106976_tabs\"]/div/div/ul/div[1]/div/div[3]/li"));
         sendKeySet.click();
 
         // 5. Находим кнопку "Согласен" и нажимаем ее
