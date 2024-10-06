@@ -61,7 +61,7 @@ public class TestBasketFpv {
         Thread.sleep(500);
 
         // 5. Находим кнопку "Квадрокоптер Happymodel Mobula7 SPI (ELRS) (1S)" и кликаем на нее
-        WebElement sendKeyHappy = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_104315_362ce596257894d11ab5c1d73d13c755\"]/div/div[3]/a"));
+        WebElement sendKeyHappy = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_104315_7e1b8e3524755c391129a9d7e6f2d206\"]/div/div[3]/a"));
         sendKeyHappy.click();
 
         // 6. Находим кнопку "Купить" и кликаем на нее
@@ -79,12 +79,12 @@ public class TestBasketFpv {
         WebElement sendKeyPult = driver.findElement(By.xpath("//*[@id=\"catalog-menu-obbx_92906147_g8taYv\"]/ul/li[3]/div/ul/li[5]/div/ul/li[1]/a/span[2]"));
         sendKeyPult.click();
 
-        // 10. Находим кнопку "Аппаратура управления RadioMaster TX12 MKII ExpressLRS / ELRS EdgeTX" и кликаем на нее
-        WebElement sendKeyPult2 = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_101978_d0fb066f64e2309c4b241a491f76c62e\"]/div/div[3]/a"));
+        // 10. Находим кнопку "Аппаратура управления RadioMaster TX12 MKII (CC2500) EdgeTX" и кликаем на нее
+        WebElement sendKeyPult2 = driver.findElement(By.xpath("//*[@id=\"bx_3966226736_54042_7e1b8e3524755c391129a9d7e6f2d206\"]/div/div[3]/a"));
         sendKeyPult2.click();
 
         // 11. Находим кнопку "Купить" и кликаем на нее
-        WebElement buyItemPult = driver.findElement(By.xpath("//*[@id=\"bx_117848907_101978_add_basket_link\"]"));
+        WebElement buyItemPult = driver.findElement(By.xpath("//*[@id=\"bx_117848907_54042_add_basket_link\"]"));
         buyItemPult.click();
 
         // 12. Вызываем боковое меню наведением указателя мыши
